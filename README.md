@@ -86,3 +86,69 @@ To-do list:
 * [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 * [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 * [Flutter Documentation](https://flutter.dev/docs)
+
+
+
+
+
+
+Table of Contents
+Softwares Required
+Start Contributing
+Screenshots
+
+
+
+Softwares-Required:
+Flutter Sdk
+Android Studio/VS Code
+
+
+Visit here to know how to install the mentioned requirements. It is flutter team's official docs over the installation. Also, you can check here for more info.
+
+Start-Contributing:
+Step 1: Fork this repository
+A fork would place a copy of this project in your GitHub Account
+Fork
+
+Step 2: Clone the repository
+Cloning the repository will place a local copy of project on your own machine
+
+Copy the URL from the copy to clipboard icon
+
+Copy To Clipboard
+
+Open a terminal and run the following git command :
+
+git clone https://github.com/<your-user-name>/Flutter-UI.git
+
+Step 3: Create a branch
+A branch is a way to keep your changes separate from the main part of the project called Master. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+Change to the repository directory on your computer (if you are not already there):
+
+cd Flutter-UI
+
+Now create a branch using the git checkout command:
+
+git checkout -b <your-name-profile-card>
+
+(While the branch name can be anything we suggest you to keep it the way we mentioned.)
+
+Step 4: Make necessary changes and commit
+Open the project in Android Studio or VS Code. Make sure you are not on master branch.
+
+A schema of the different models used in the app is shared here(the link will be there). We are using Firebase to store information. Select any one of the issue that we have created and follow the instructions there and after you have finally solved the problem.
+
+Add those changes to the branch you just created using the git add command:
+
+git add .
+
+Now commit those changes using the git commit command:
+
+git commit -m "<your-name> Profile Card Added"
+
+Step 5: Push Changes
+Push your changes using the command git push origin <your-branch-name>
+
+Step 6: Make a Pull Request
+Go to your repository on GitHub, you'll see a Compare & pull request button. Click on it.
